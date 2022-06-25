@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width: 100%;
+    background-size: cover;
+    height: auto;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    margin: auto;  
+    color: rgb(0, 0, 0);
+    background-color: #a57441;
+    position: relative;
+    float: left;    
+}
+
+.contact h1{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: cursive;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h2{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.pic{
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+    background-color: #FFDDB8;
+}
+
+.pic h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.pic h2{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.row::after{
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+    .pic{
+        width: 100%;
+    }
+}
+
+.university{
+    padding-top:1000px;
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+    background: linear-gradient(to right, #864ddf, #203376);
+}
